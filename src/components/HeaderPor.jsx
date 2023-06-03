@@ -39,10 +39,11 @@ const HeaderPor = () => {
 
 
         </div>
-        <p>Repositorio</p>
+        
 
 
       </div>
+      <a className="repositorio" href="https://github.com/kyulic/portafolio">Karla Yulieth caquimbo Repositorio</a>
 
       
         
