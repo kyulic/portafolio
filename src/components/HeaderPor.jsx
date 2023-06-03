@@ -7,7 +7,7 @@ const HeaderPor = () => {
     <article>
         <div className="port_init">
         <header className="header">
-            <div className="div_img"> <img className="img_logo" src="./public/logo.png" alt="logo" /></div>
+            <div className="div_img"> <img className="img_logo" src="../logo.png" alt="logo" /></div>
             
             <nav className="navbar">
                 <ul className="list_navbar">
@@ -24,12 +24,12 @@ const HeaderPor = () => {
                 <p>A fronted developer based in Colombia</p>
                 <button className="button_content">Download CV</button>            
             </div>
-            <img className="img_header" src="./public/imagen_1.png" alt="image1" />
+            <img className="img_header" src="../imagen_1.png" alt="image1" />
         </main>
         </div>
       
       <div id="about_me">
-      <img className="img_ing" src="./public/ingenieria.png" alt="ingenieria" />
+      <img className="img_ing" src="../ingenieria.png" alt="ingenieria" />
         <div className="about_inf">
         <h2 className="title_about">About me</h2>
         
