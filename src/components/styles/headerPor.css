@@ -1,5 +1,6 @@
 :root{
     --colorPrincipal: rgb(56, 153, 153);
+    --color-menu:#F9ECEC;
 }
 .port_init{
     background-color: #181d44;
@@ -22,14 +23,19 @@
 
 .list_navbar a{
     text-decoration: none;
-    color: white;  
+    color: #000;  
     font-size: 1rem;
     
     
 }
 
 .navbar{
-    width: 70%; 
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 30px; 
+    background-color: var(--color-menu) ;
     
     
 }
@@ -44,6 +50,7 @@ img{
     
 }
 
+
 .img_logo{
     display: block;
     width: 100%;
@@ -57,11 +64,13 @@ img{
 
 }
 .div_img{
-    margin-top: -0.3em;
+    /* margin-top: 4em; */
+    margin-left: 1em;
     width: 5rem;    
 }
 .img_header{
-    width: 100%;
+    width: 60%;
+    margin: 0 0 2em 3em;
     border: 0.3em solid var(--colorPrincipal);
 }
 
@@ -69,7 +78,7 @@ img{
     margin: 0 auto;
     width: 90vw;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(400px,2fr));
     align-items: center;
     
 }
@@ -97,7 +106,7 @@ img{
 #about_me{
     min-height:60vh;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(auto-fit, minmax(400px,2fr));
     
     
 }
@@ -126,51 +135,20 @@ img{
 }
 
 @media(max-width:800px){
-    .img_logo{
-        display: block;
-        width: 100%;
-        border-radius: 2em;
+    #main{
+        margin-top: 1em;
         
+    }
+
+  .button_content{
+    margin-bottom: 1em;
+  }
+  .img_header{
     
-    }
-    .div_img{
-        margin-top: -0.3em;
-        width: 3rem;    
-    } 
-    .list_navbar a{
-       
-        font-size: 0.8rem;
-        
-        
-    }
-    .main{
-        width: 95vw;
-    }
-    .img_header{
-        width: 100%;
-        /* margin-top: 0.5rem; */
-        
-    }
-    .inf_content{
-        font-size: 1rem;
-    }
-    #about_me{
-        min-height:40vh;       
-        
-    }
+    margin: 0 0 2em 5em;
+    
+}
 
-    .img_ing{
-        width: 14rem;
-        height: 10rem;
-            }
-    .about_inf{
-        margin: 0;    
-        }
-
-    .title_about{
-        text-align: center;
-        
-    }
 
 
 }
