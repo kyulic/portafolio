@@ -46,7 +46,7 @@ const HeaderPor = () => {
         <h2 className="title_about">Acerca de mi</h2>
         
         <p className="paraf_about">Soy Ingeniera Electrónica, 
-          tambien soy  desarrolladora frontend y backend node Js,
+          y desarrolladora frontend y backend node Js,
            tengo conocimientos en el lenguaje de programación Python y C enfoncado en arduino. 
            Manejo programas educativos como scratch, S4A, zinjay, PIC C.
            Estoy desarrollando mis estudios de como desarrollador frontend en Academlo

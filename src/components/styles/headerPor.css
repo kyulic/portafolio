@@ -227,7 +227,8 @@ img{
 @media(max-width:800px){
     #main{
         justify-content: center;
-        
+        display: flex;
+        top: 2.3em;
     }
 
     
