@@ -16,9 +16,9 @@ const HeaderPor = () => {
                <div className="nav_logo"></div>
                 <ul className={`list_navbar ${isOpen && "open"}`}>
                     <li><a href="#main">Home</a></li>
-                    <li><a href="#about_me">About me</a></li>
+                    <li><a href="#about_me">Acerca de mi</a></li>
                     <li><a href="#portafolio">Portafolio</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Contacto</a></li>
                 </ul>
                 <div className={`nav_toggle ${isOpen && "open"}`} onClick={hanbleClick}>
                   <spa><i className='bx bx-list-ul'></i></spa>
@@ -35,18 +35,47 @@ const HeaderPor = () => {
                 <p>Soy desarrolladora fronted y backend  | JavaScript | ReactJS | CSS | HTML | PYTHON </p>
                 <button className="button_content">Download CV</button>            
             </div>
-            <img className="img_header" src="../karla.jpg" alt="karla" />
+            
+            <img className="img_header" src="../descargar.jpg" alt="header_img" />
         </main>
         </div>
       
       <div id="about_me">
-      <img className="img_ing" src="../ingenieria.png" alt="ingenieria" />
+      <img className="img_ing" src="../karla.jpg" alt="karla" />
         <div className="about_inf">
         <h2 className="title_about">Acerca de mi</h2>
         
-        <p className="paraf_about">I am electronic engineer, 
-          also developer full-stack developer,
-           I have knowledge of the Python programming language  </p>
+        <p className="paraf_about">Soy ingeniera electrónica, 
+          tambien soy  desarrolladora frontend y backend node Js,
+           tengo conocimientos en el lenguaje de programación Python y C enfoncado en arduino. 
+           Manejo programas educativos como scratch, S4A, zinjay, PIC C.
+           Estoy desarrollando mis estudios de como desarrollador frontend en Academlo
+
+        <div className="lenguajes">
+          <div className="lenguajes_bar" >
+            <h2>50%</h2>
+          </div>
+          
+        </div>
+        <div className="lenguajes">
+          <div className="lenguajes_bar">
+            <h2>50%</h2>
+          </div>
+          
+        </div>
+        <div className="lenguajes">
+          <div className="lenguajes_bar">
+            <h2>50%</h2>
+          </div>
+          
+        </div>
+           
+           
+          </p>
+
+
+           
+
 
 
         </div>

@@ -20,14 +20,7 @@
     display: flex;
     justify-content: flex-end;
     gap: 2em;
-    
-    /* justify-content: space-around;   */
-    
-   
-    
-    
-       
-    }
+}
 
 .list_navbar a{
     text-decoration: none;
@@ -44,17 +37,13 @@
     top: 0;
     width: 100%;
     height: 30px; 
-    background-color: var(--color-black) ;
-    
+    background-color: var(--color-black) ;    
     display: flex;
     justify-content: space-between;
     
     
 }
-/* .logo{
-    font-size: 1.5em;
-    
-} */
+
 
 .list_navbar a:hover{
     color: var(--colorPrincipal);
@@ -85,23 +74,40 @@ img{
     width: 5rem;    
 }
 .img_header{
-    width: 40%;
-    margin: 0 0 2em 3em;
+    
+    width: 80%;
+    height: 80%;
+    border-radius: 0.5em;
+    opacity: 30%;
+    box-shadow: 1px 1px 1px 1px rgb(255, 255, 255);
+    /* margin: 0 0 2em 3em;
     border: 0.3em solid var(--colorPrincipal);
-    border-radius: 30%;
+    border-radius: 10%; */
 }
 
 #main{
-    margin: 0 auto;
     
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
     width: 80vw;
-    display: grid;
+    height: 40vw;
+    /* display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px,2fr));
     align-items: center;
-    gap: 10em;
+    gap: 10em; */
     
 }
-
+.inf_content{
+    
+    width: 70%;
+    position: absolute;
+    font-size: 1.3vw;
+    top: 50%;
+    text-shadow: 2px 2px 8px rgb(0,0,0, .9);
+}
 .name{
     color: var(--colorPrincipal);
    
@@ -123,15 +129,21 @@ img{
 
 }
 #about_me{
-    min-height:60vh;
-    display: flex;
+    width: 100vw;
+    background-color: var(--color-black) ;  
     /* display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px,2fr)); */
+    grid-template-columns: repeat(auto-fit, minmax(400px,2fr));
+    align-items: center; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8em;
+    justify-content: center;
+
     
     
 }
 .title_about{
-    color: #000;
+    color:var(--colorPrincipal);
    
 }
 .paraf_about{
@@ -139,14 +151,50 @@ img{
     
 }
 .img_ing{
-    width:52%;
-    border-radius: 0.2rem;
+    width:25%;
+    margin: 0 0 2em 7em;
+    display: flex;
+    justify-content: center;
+    
+    /* border: 0.3em solid var(--colorPrincipal); */
+    border-radius: 1em;
+    /* opacity: 70%; */
+    box-shadow: 20px 20px 1px 1px rgb(102,231,200, .79);
+    filter: brightness(60%); 
 
 }
 .about_inf{
-    margin: 1rem 0 0 1rem;
-    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    gap: 1em;
+    line-height: 1.5em;
+    width: 20em;
+    justify-content: center;
     
+    
+}
+.lenguajes{
+    background-color: var(--color-menu);
+    overflow: hidden;
+    border-radius: 1em;
+    position: relative;
+    height: 20px;
+    font-size: 0.5rem;
+    margin: 1em 0;
+
+}
+
+.lenguajes_bar{
+    height: 100%;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,47,121,1) 36%, rgba(0,212,255,1) 100%);
+    width: 50%;
+    border-radius: 1em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 .repositorio{
     color: #696767;
@@ -178,31 +226,48 @@ img{
 
 @media(max-width:800px){
     #main{
-        margin-top: 1em;
-        gap: 2em;
+        justify-content: center;
         
     }
 
+    
+.img_logo{
+    display: block;
+    width: 80%;
+    border-radius: 2em;
+ 
+     border:  0.1em solid  var(--colorPrincipal);
+    
+
+}
+
   .button_content{
-    margin-bottom: 1em;
+    
+    font-size: 0.3rem;
   }
-  .img_header{
+  .inf_content{
     
-    margin: 0 0 2em 5em;
     
+    top: 40%;
     
 }
+
 #about_me{
-    flex-direction: column-reverse;
+   gap: 1em;
+   justify-content:flex-start;
 
 }
 .about_inf{
-    margin: 2em 0 4em 1em;    
+    align-items: center;
+    margin-left: 2em;
     
 }
 
 .img_ing{
-    width:100%;
+    width:40%;
+    display: flex;
+    justify-content: center;
+    
     
 
 }
@@ -238,16 +303,7 @@ img{
         
 }
 
-/* .nav_toggle span{
- width: 80px;
- height: 40px;
- font-size: 10em;
- background-color: white;
- margin-bottom: 5px;
- border-radius: 2px;
- transform: 5px 0px;
- transition: all 0.2s linear;
-} */
+
 .nav_toggle.open > span{
     transform: rotate(45deg) translate(0px,0px);
 
@@ -268,5 +324,6 @@ img{
     
     
 }
+
 
 }
