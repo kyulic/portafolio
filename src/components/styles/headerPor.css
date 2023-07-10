@@ -129,7 +129,9 @@ img{
     box-shadow: 1px 3px 11px -5px rgb(102,231,200, .79);
     
 }
-
+.cv{
+    text-decoration: none;
+}
 .button_content:hover{
     box-shadow: none;
     background-color: rgb(132, 216, 216);
