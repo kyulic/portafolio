@@ -33,7 +33,7 @@ const HeaderPor = () => {
             <div className="inf_content">
                 <h1 className="presentation">Hola!!! Mi nombre es <span className="name">Karla Yulieth </span>Caquimbo </h1>
                 <p>Soy desarrolladora fronted y backend  | JavaScript | React | CSS | HTML | PYTHON </p>
-                <button className="button_content">Download CV</button>            
+                <button className="button_content">Download CV</button>
             </div>
             
             <img className="img_header" src="../descargar.jpg" alt="header_img" />
