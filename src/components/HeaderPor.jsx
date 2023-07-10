@@ -137,8 +137,13 @@ const HeaderPor = () => {
 
         </section>
 
+        <footer className="repositorio_footer">
 
-      <a className="repositorio" href="https://github.com/kyulic/portafolio">Karla Yulieth caquimbo Repositorio</a>
+        <a className="repositorio" href="https://github.com/kyulic/portafolio">Karla Yulieth caquimbo Repositorio</a>
+
+        </footer>
+
+     
 
 
       

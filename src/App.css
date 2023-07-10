@@ -11,3 +11,30 @@
 ul{
     list-style: none;
 }
+
+
+.repositorio_footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: var(--colorPrincipal);
+    padding: 0.8em;
+    color: aliceblue;
+    
+}
+
+.repositorio{
+    
+    font-weight: bold;
+    font-size: 1.4vw;
+    text-transform: capitalize;
+    
+    text-shadow: 2px 2px 2px rgb(0,0,0, .9);
+
+}
+
+@media(max-width:800px){
+    .repositorio{
+        font-size: 1rem;
+    }
+}
