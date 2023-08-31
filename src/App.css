@@ -1,0 +1,40 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,500;1,400;1,500;1,700&family=Fraunces:wght@700&family=Lexend+Deca:wght@400;700&family=Lexend:wght@500&family=Libre+Baskerville&family=Sen:wght@800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(228, 237, 245);
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+
+
+.repositorio_footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: var(--colorPrincipal);
+    padding: 0.8em;
+    color: aliceblue;
+    
+}
+
+.repositorio{
+    
+    font-weight: bold;
+    font-size: 1.4vw;
+    text-transform: capitalize;
+    
+    text-shadow: 2px 2px 2px rgb(0,0,0, .9);
+
+}
+
+@media(max-width:800px){
+    .repositorio{
+        font-size: 1rem;
+    }
+}
