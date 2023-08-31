@@ -151,7 +151,15 @@ const HeaderPor = () => {
 
             <a className="linkPro" href="https://front-movies.netlify.app"> <img  className="img_protafolio" src="../movies.jpg" alt="movies" />
             <p className="proyectos">Proyecto de movies, se desarrolla con:
-              html, css,javaScript react y Node js, base de datos en</p>  </a>  
+              html, css,javaScript react y Node js</p>  </a> 
+
+            <a className="linkPro" href="https://maquetado4.netlify.app"> <img  className="img_protafolio" src="../maquetado_1.jpg" alt="maquetado" />
+            <p className="proyectos">Maquetado, se desarrolla con:
+              html, css</p>  </a> 
+
+              <a className="linkPro" href="https://maquetado2.netlify.app"> <img  className="img_protafolio" src="../maquetado_2.jpg" alt="maquetado" />
+            <p className="proyectos">Maquetado, se desarrolla con:
+              html, css</p>  </a> 
 
 
             <div className="icons_tecn">
