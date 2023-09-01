@@ -129,7 +129,7 @@ const HeaderPor = () => {
               html, css,javaScript react</p>
               </a> 
               
-            <a className="linkPro" href="https://crudky.netlify.app"> <img  className="img_protafolio"  src="../crud.jpg" alt="" />
+            <a className="linkPro" href="https://entregable4ky.netlify.app"> <img  className="img_protafolio"  src="../crud.jpg" alt="" />
             <p className="proyectos">Proyecto que permite de CRUD, se desarrolla con:
               html, css,javaScript react</p> </a> 
 
