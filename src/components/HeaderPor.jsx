@@ -71,41 +71,41 @@ const HeaderPor = () => {
         <section className="hability">
           <h3 className="title_habilities">Habilidades:</h3>
         <div className="lenguajes">
-          <div className="lenguajes_bar" style={{width:'70%'}} >
-            <h2>Python 70%</h2>
+          <div className="lenguajes_bar" style={{width:'100%'}} >
+            <h2>Python</h2>
           </div>
           
         </div>
         <div className="lenguajes">
-          <div className="lenguajes_bar" style={{width:'60%'}}>
-            <h2> C- 60%</h2>
+          <div className="lenguajes_bar" style={{width:'100%'}}>
+            <h2> C++</h2>
           </div>
           
         </div>
         <div className="lenguajes">
-          <div className="lenguajes_bar" style={{width:'70%'}} >
-            <h2> HTML 70%</h2>
-          </div>
-          
-        </div>
-
-        <div className="lenguajes">
-          <div className="lenguajes_bar" style={{width:'70%'}}>
-            <h2> CSS- 70%</h2>
+          <div className="lenguajes_bar" style={{width:'100%'}} >
+            <h2> HTML</h2>
           </div>
           
         </div>
 
         <div className="lenguajes">
-          <div className="lenguajes_bar" style={{width:'70%'}}>
-            <h2> JavaScript- 70%</h2>
+          <div className="lenguajes_bar" style={{width:'100%'}}>
+            <h2> CSS</h2>
           </div>
           
         </div>
 
         <div className="lenguajes">
-          <div className="lenguajes_bar" style={{width:'70%'}}>
-            <h2> Node Js- 70%</h2>
+          <div className="lenguajes_bar" style={{width:'100%'}}>
+            <h2> JavaScript</h2>
+          </div>
+          
+        </div>
+
+        <div className="lenguajes">
+          <div className="lenguajes_bar" style={{width:'100%'}}>
+            <h2> Node Js</h2>
           </div>
           
         </div>
