@@ -162,17 +162,20 @@ const HeaderPor = () => {
               html, css</p>  </a> 
 
 
+            
+            </div>
             <div className="icons_tecn">
             <i className='bx bxl-html5'></i>
             <i className='bx bxl-css3'></i>
             <i className='bx bxl-javascript'></i>
             <i className='bx bxl-react'></i>
+            <i className='bx bxl-nodejs'></i>
+            <i className='bx bxl-postgresql'></i>
 
 
 
             </div>
 
-            </div>
           </div>
         </section>
         
