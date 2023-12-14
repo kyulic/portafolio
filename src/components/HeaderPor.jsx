@@ -161,6 +161,10 @@ const HeaderPor = () => {
             <p className="proyectos">Maquetado, se desarrolla con:
               html, css</p>  </a> 
 
+              <a className="linkPro" href="https://www.youtube.com/watch?v=Jqu253726f4"> <img  className="img_protafolio" src="../tension.jpeg" alt="tension" />
+            <p className="proyectos">Medidor de profundidad y tensión realizado con: python</p>  </a> 
+
+
 
             
             </div>
