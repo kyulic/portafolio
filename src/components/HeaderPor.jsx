@@ -56,7 +56,8 @@ const HeaderPor = () => {
            Manejo programas educativos como scratch, S4A, zinjay, PIC C.
            He desarrollado diferentes proyectos electrónicos como control de temperara y 
            humedad de un invernadero, casa domótica (maqueta), carrito con control remoto, medidor de 
-           tensión y profundidad(python), entre otros.
+           tensión y profundidad (python), entre otros. 
+           Actualmente continuo mi formación como desarrollador
            
 
           </p>        
