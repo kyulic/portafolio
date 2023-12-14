@@ -125,7 +125,7 @@ const HeaderPor = () => {
             
               
               <a className="linkPro" href="https://kyclima.netlify.app"><img className="img_protafolio" src="../clima.jpg" alt="clima" />
-              <p className="proyectos">Proyecto que permite visualizar el clima, se desarrolla con:
+             <p className="proyectos">Proyecto que permite visualizar el clima, se desarrolla con:
               html, css,javaScript react</p>
               </a> 
               

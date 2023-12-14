@@ -318,6 +318,7 @@ img{
    padding: 0.5em;
    transform: translateY(-200%);
    transition: all 0.5s;
+   
     
  }
 
@@ -593,6 +594,14 @@ img{
     
     color:var(--color-black);  
     
+    
+    
+}
+
+.proyectos{
+    max-width: 280px;
+    width: 100%;
+    justify-content: center;
     
     
 }
