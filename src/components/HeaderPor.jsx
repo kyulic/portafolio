@@ -56,7 +56,7 @@ const HeaderPor = () => {
            Manejo programas educativos como scratch, S4A, zinjay, PIC C.
            He desarrollado diferentes proyectos electrónicos como control de temperara y 
            humedad de un invernadero, casa domótica (maqueta), carrito con control remoto, entre otros.
-           Estoy desarrollando mis estudios como desarrollador Full Stack en Academlo, y continuo aprendizaje
+           
 
           </p>        
           
