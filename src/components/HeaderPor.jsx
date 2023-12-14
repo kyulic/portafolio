@@ -55,7 +55,8 @@ const HeaderPor = () => {
            tengo conocimientos en el lenguaje de programación Python y C enfocado en arduino. 
            Manejo programas educativos como scratch, S4A, zinjay, PIC C.
            He desarrollado diferentes proyectos electrónicos como control de temperara y 
-           humedad de un invernadero, casa domótica (maqueta), carrito con control remoto, entre otros.
+           humedad de un invernadero, casa domótica (maqueta), carrito con control remoto, medidor de 
+           tensión y profundidad(python), entre otros.
            
 
           </p>        
