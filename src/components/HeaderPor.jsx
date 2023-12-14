@@ -57,7 +57,7 @@ const HeaderPor = () => {
            He desarrollado diferentes proyectos electrónicos como control de temperara y 
            humedad de un invernadero, casa domótica (maqueta), carrito con control remoto, medidor de 
            tensión y profundidad (python), entre otros. 
-           Actualmente continuo mi formación como desarrollador
+           Actualmente continuo mi formación como desarrollador con python
            
 
           </p>        
