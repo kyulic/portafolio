@@ -15,10 +15,10 @@ const HeaderPor = () => {
             <nav className="navbar">
                <div className="nav_logo"></div>
                 <ul className={`list_navbar ${isOpen && "open"}`}>
-                    <li><a href="#main">Home</a></li>
-                    <li><a href="#about_me">Acerca de mi</a></li>
-                    <li><a href="#portafolio">Portafolio</a></li>
-                    <li><a href="#contacto">Contacto</a></li>
+                    <li><a href="#main">Home <i className='bx bx-home-alt-2'></i></a></li>
+                    <li><a href="#about_me">Acerca de mi <i className='bx bx-child'></i></a></li>
+                    <li><a href="#portafolio">Portafolio <i className='bx bx-briefcase'></i></a></li>
+                    <li><a href="#contacto">Contacto <i className='bx bx-mail-send'></i></a></li>
                 </ul>
                 <div className={`nav_toggle ${isOpen && "open"}`} onClick={hanbleClick}>
                   <spa><i className='bx bx-list-ul'></i></spa>
