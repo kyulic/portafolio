@@ -184,7 +184,57 @@ const HeaderPor = () => {
 
           </div>
         </section>
+
         
+        {/* <div className='container_msj'>
+            
+
+            <section className="section_msj_im">
+                <div className='section_msj'>
+                 
+                    
+                    <div className='parrafo_msj'> 
+                    <h3 className='title_msj'>Cursos, Certificados y capacitaciones</h3>
+                    <div className="text_msj" >
+                    <a href="../C1.pdf" download>NTC-ISO 17020:2012</a>
+                    <a href="../C2.pdf" download>Academia de Robotica para docentes</a>
+                    <a href="../C3.pdf" download>Reparación de sistemas DPC Electricos Automotirces</a>
+                    <a href="../C4.pdf" download>Salud ocupacional</a>
+                    <a href="../C5.pdf" download>Servicio al cliente</a>
+                    <a href="../C5.pdf" download>Metrología básica para CDA</a>
+                    <a href="../C5.pdf" download>Mecánica básica</a>
+                    <a href="../C5.pdf" download>FAN CLUTCH</a>
+                    <a href="../C5.pdf" download>Revisión de cintas retrorreflectivas 3M en CDAs</a>
+                    <a href="../C5.pdf" download>Iluminación Automotriz para CDAs</a>
+                    <a href="../C5.pdf" download>Causas y soluciones en los sistemas de frenos </a>
+                    <a href="../C5.pdf" download>Sistemas de alimentación de motocicletas y los diferentes tipos de chasis.</a>
+                    <a href="../C5.pdf" download>Pruebas mecánicas para el diagnostico de motores de combustible </a>
+                    <a href="../C5.pdf" download>Sistemas electrónicos para disminución de emisión y economía de combustible</a>
+                    <a href="../C5.pdf" download>Conceptualización del lenguaje de programación C++</a>
+                    <a href="../C5.pdf" download>Aplicación del Reglamento Técnico para Redes Internas de Telecomunicaciones </a>
+                    <a href="../C5.pdf" download>Análisis e interpretación del CEA-4.1-01 Versión 03: ONAC</a>
+                    <a href="../C5.pdf" download>Criterios Generales para la Operación de Organismos de Inspección bajo la norma ISO/IEC 17020/2012 e ILACP15:07</a>
+                    <a href="../C5.pdf" download>Evaluar motocicletas de acuerdo con la legislación y norma técnica</a>
+                    <a href="../C5.pdf" download>Control y telecomunicaciones</a>
+                    <a href="../C5.pdf" download>Transferencias de conocimientos de energía renovables</a>
+                    <a href="../C5.pdf" download>Curso especial en revisión técnico mecánica y emisiones contaminantes de vehículos en centros de diagnóstico Automotor</a>
+                    </div>
+                                        
+                                    </div>
+                    
+                    </div>
+               
+               
+            </section>
+
+            </div> */}
+
+
+        
+
+
+
+
         <section id="contacto">
           <h2 className="title_contact">contacto</h2>
           <div className="container_enlaces">

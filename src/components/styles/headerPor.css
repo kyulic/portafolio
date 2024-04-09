@@ -275,7 +275,100 @@ img{
     
 }
 
+.cursos{
+    max-width: 100vw;
+    width: 100%;
+    
+    /* display:  flex;
+    flex-direction: column; */
+    align-items: center;    
+    text-align: center;
 
+}
+
+
+
+.container_msj{
+   
+    background-color: var(--color-black) ;
+    
+    
+}
+
+
+.section_msj{
+   display: flex;
+   justify-content: center;
+    /* width: 30%; */
+    border-radius:5px ;
+    /* --colorBeige:rgb(213, 213, 211);  */
+    /* box-shadow: 0 0 10px rgba(184, 178, 178, 0.993); */
+    
+}
+
+
+.parrafo_msj{
+    /* width: 70%; */
+    padding: 1em ;
+    font-size:2.5vw;
+    /* text-align: justify; */
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* font-weight: bolder; */
+    width: 50%;
+    padding: 2em 0 1em 0;
+
+}
+
+.title_msj{
+    color: var(--colorPrincipal);
+    display: flex;
+   
+    /* text-shadow: 10px 4px 10px rgba(22, 16, 16, 0.5);  */
+    /* padding-bottom: 1em; */
+    width: 100%;
+    /* font-family: "Lucida Console", "Courier New", monospace; */
+    padding: 0 1em 1em 1.2em;
+    
+    
+    justify-content: center;
+}
+
+.text_msj{
+    display: flex;
+    justify-content: left;
+    /* background-color: aliceblue; */
+    font-size:1.7vw;
+    color: #333; /* color del texto */
+/* margin: 2em auto; */
+overflow: hidden;
+padding: 1em 2.5em 1em 1em;
+position: relative;
+width: 80%; /* ancho del post*/
+height: 70%;
+
+background:#ccc;/* color del post */
+font-family: "Brush Script MT", "Brush Script Std", "cursive";
+
+}
+
+
+.text_msj:before {
+    content:"";
+    position:absolute;
+    top:0;
+    right:0;
+    border-width:0 40px 40px 0;
+    border-style:solid;
+    border-color:#fff #fff #333 #000;/* color borde y pestaña */
+    background:658E15;
+    /* sombra pestaña opcional*/
+    -webkit-box-shadow:0 2px 2px rgba(0,0,0,0.3), -2px 2px 2px rgba(0,0,0,0.2);
+    -moz-box-shadow:0 2px 2px rgba(0,0,0,0.3), -2px 2px 2px rgba(0,0,0,0.2);
+    box-shadow:0 2px 2px rgba(0,0,0,0.3), -2px 2px 2px rgba(0,0,0,0.2);
+    }
 /* .container{
     
 } */
